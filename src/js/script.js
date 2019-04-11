@@ -117,7 +117,7 @@ bindSlideToggle('.hamburger', '[data-slide="nav"]', '.header__menu');
 function start() {
     // 2. Initialize the JavaScript client library.
     gapi.client.init({
-        'apiKey': 'AIzaSyBJ2S9eRVsiLxzXUP6Awo24t85JnmVXMQw',
+        'apiKey': '',
         // Your API key will be automatically added to the Discovery Document URLs.
         'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
     }).then(function () {
@@ -164,7 +164,7 @@ more.addEventListener('click', function () {
 
 function search(target) {
     gapi.client.init({
-        'apiKey': 'AIzaSyBJ2S9eRVsiLxzXUP6Awo24t85JnmVXMQw',
+        'apiKey': '',
         // Your API key will be automatically added to the Discovery Document URLs.
         'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
     }).then(function () {
